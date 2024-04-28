@@ -1,0 +1,72 @@
+.A-1 {
+    left: -2%;
+    animation: Flow 2s linear infinite alternate forwards;
+
+}
+
+
+
+
+/* .T01 , .T15 {
+
+} */
+.T02,
+.T14,
+.T16 {
+    animation-delay: 70ms;
+}
+
+.T03,
+.T13,
+.T17 {
+    animation-delay: 140ms;
+}
+
+.T04,
+.T12,
+.T18 {
+    animation-delay: 210ms;
+}
+
+.T05,
+.T11,
+.T19 {
+    animation-delay: 280ms;
+}
+
+.T06,
+.T10,
+.T20 {
+    animation-delay: 350ms;
+}
+
+.T07,
+.T09,
+.T21,
+.T23 {
+    animation-delay: 420ms;
+}
+
+.T08,
+.T22 {
+    animation-delay: 490ms;
+}
+
+
+
+@keyframes Flow {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    50% {
+
+        background-color: rgba(1, 1, 1, 1);
+    }
+
+    100% {
+
+        background-color: rgba(0, 0, 0, 0);
+        translate: 100%;
+    }
+}
